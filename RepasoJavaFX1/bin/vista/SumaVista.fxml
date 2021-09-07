@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="545.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.VistaControlador">
+   <children>
+      <Label layoutX="106.0" layoutY="166.0" prefHeight="40.0" prefWidth="144.0" text="Operando 1" AnchorPane.leftAnchor="106.0" AnchorPane.topAnchor="166.0" />
+      <Label layoutX="106.0" layoutY="250.0" text="Operando 2" AnchorPane.leftAnchor="106.0" AnchorPane.topAnchor="250.0" />
+      <Label layoutX="106.0" layoutY="464.0" text="Resultado" AnchorPane.leftAnchor="106.0" AnchorPane.topAnchor="464.0" />
+      <TextField fx:id="operando1" layoutX="281.0" layoutY="160.0" prefHeight="52.0" prefWidth="243.0" AnchorPane.leftAnchor="281.0" AnchorPane.rightAnchor="76.0" AnchorPane.topAnchor="160.0" />
+      <TextField fx:id="resultado" layoutX="272.0" layoutY="458.0" prefHeight="52.0" prefWidth="243.0" AnchorPane.leftAnchor="272.0" AnchorPane.rightAnchor="85.0" AnchorPane.topAnchor="458.0" />
+      <TextField fx:id="operando2" layoutX="281.0" layoutY="247.0" prefHeight="52.0" prefWidth="243.0" AnchorPane.leftAnchor="281.0" AnchorPane.rightAnchor="76.0" AnchorPane.topAnchor="247.0" />
+      <Button fx:id="operar" layoutX="272.0" layoutY="404.0" mnemonicParsing="false" onAction="#calcular" prefHeight="40.0" prefWidth="243.0" text="Operar" AnchorPane.leftAnchor="272.0" AnchorPane.rightAnchor="85.0" AnchorPane.topAnchor="404.0" />
+      <RadioButton fx:id="sumar" layoutX="272.0" layoutY="308.0" mnemonicParsing="false" text="Suma" AnchorPane.leftAnchor="272.0" AnchorPane.rightAnchor="251.0" AnchorPane.topAnchor="308.0" />
+      <RadioButton fx:id="restar" layoutX="424.0" layoutY="308.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="95.0" text="Resta" AnchorPane.leftAnchor="424.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="308.0" />
+      <RadioButton fx:id="producto" layoutX="272.0" layoutY="355.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="130.0" text="Producto" AnchorPane.leftAnchor="272.0" AnchorPane.rightAnchor="198.0" AnchorPane.topAnchor="355.0" />
+      <RadioButton fx:id="dividir" layoutX="424.0" layoutY="355.0" mnemonicParsing="false" text="Division" AnchorPane.leftAnchor="424.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="355.0" />
+   </children>
+</AnchorPane>

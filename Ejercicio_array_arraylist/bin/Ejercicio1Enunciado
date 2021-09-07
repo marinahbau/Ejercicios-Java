@@ -1,0 +1,35 @@
+Ejercicio Array y ArrayList
+
+Crear una clase denominada ListaCantantesFamosos que disponga de un 
+atributo ArrayList listaCantantesFamosos que contenga objetos de tipo CantanteFamoso.
+La clase ListaCantantesFamosos debe tener un método que permita añadir 
+objetos de tipo CantanteFamoso a la lista.
+
+Un objeto de tipo CantanteFamoso tendrá como atributos un nombre y 
+un array normal de la clase Discos, con los 3 discos más vendidos, 
+siempre ordenados por su numero de reproducciones, 
+además de sus getters y setters.
+
+La clase Disco tiene los atributos titulo y numero de reproducciones.
+
+Crea una clase test con un main que inicialice un objeto de tipo 
+ListaCantantesFamosos y añade manualmente objetos de tipo CantanteFamoso
+a la lista. Muestra los nombres de cada cantante y su disco con más 
+ventas por pantalla. Se debe pedir al usuario el nombre y los discos
+con más ventas de otro cantante famoso, y una vez introducidos los 
+datos mostrar la lista actualizada. Se debe dar la opcion al usuario
+de volver a introducir otro cantante hasta que el usuario decida salir.
+
+Por favor introduzca los datos de un cantante.
+Nombre: Michael Jackson
+Disco con más ventas: Thriller
+La lista actualizada contiene los siguientes datos:
+Cantante: Michael Jackson    Disco con más ventas: Thriller.
+¿Desea introducir los datos de otro cantante (s/n)?
+s
+Por favor introduzca los datos de otro cantante.
+Nombre: Luis Miguel
+Disco con más ventas: Mi jardín oculto
+La lista actualizada contiene los siguientes datos:
+Cantante: Michael Jackson    Disco con más ventas: Thriller.
+Cantante: Luis Miguel        Disco con más ventas: Mi jardín oculto.
