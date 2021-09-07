@@ -1,4 +1,4 @@
 # Ejercicios-Java
  Repositorio para almacenar ejercicios en Java de distintos niveles utilizados para dar clases particulares.
  
-Todos los ejercicios son proyectos de eclipse. Puedes encontrar el enunciado en la raíz del proyecto.
+Todos los ejercicios son proyectos de eclipse. Puedes encontrar el enunciado en la raíz del proyecto o en la clase principal a modo de comentario.
